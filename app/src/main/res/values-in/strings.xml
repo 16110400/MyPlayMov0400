@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Daftar Putarku 0400</string>
+    <string name="app_name2">Keterangan Movie</string>
+    <string name="app_btnInfo">Info Lengkap</string>
+    <string name="app_set">Pengaturan</string>
+    <string name="app_notif">Pemberitahuan</string>
+</resources>

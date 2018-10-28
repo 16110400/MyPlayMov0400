@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">My Play Mov 0400</string>
     <string name="app_name2">Detail Movie</string>
+    <string name="app_btnInfo">MORE INFO</string>
+    <string name="app_set">Settings</string>
+    <string name="app_notif">Notifications</string>
+
 </resources>
