@@ -7,12 +7,53 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import android.view.View;
+import android.widget.Button;
+import android.content.Intent;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Button buttonMove = (Button)findViewById(R.id.btnInfo1);
+        buttonMove.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent in = new Intent(MainActivity.this, Main2Activity.class);
+                startActivity(in);
+            }
+        });
+
+        Button buttonMove2 = (Button)findViewById(R.id.btnInfo2);
+        buttonMove2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent in = new Intent(MainActivity.this, Main2Activity.class);
+                startActivity(in);
+            }
+        });
+
+        Button buttonMove3 = (Button)findViewById(R.id.btnInfo3);
+        buttonMove3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent in = new Intent(MainActivity.this, Main2Activity.class);
+                startActivity(in);
+            }
+        });
+
+        Button buttonMove4 = (Button)findViewById(R.id.btnInfo4);
+        buttonMove4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent in = new Intent(MainActivity.this, Main2Activity.class);
+                startActivity(in);
+            }
+        });
+
     }
 
     @Override
